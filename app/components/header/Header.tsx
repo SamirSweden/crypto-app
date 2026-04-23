@@ -73,7 +73,7 @@ export default function  Header () {
                             <Link
                                 key={link.path}
                                 href={link.path}
-                                className={pathname === link.path ? "font-bold text-gray-400" : "text-white"}
+                                className={pathname === link.path ? "font-bold text-gray-400 " : "text-white"}
                                 onClick={() => setOpen(false)}
                             >
                                 {link.label}
